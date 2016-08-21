@@ -1,0 +1,72 @@
+{
+  "name": "constraint-validation-buggyfill",
+  "version": "0.1.0",
+  "description": "Prevents invalid form submission in browsers that improperly support the HTML forms spec (i.e. Safari). The first invalid element is focused after alerting the validation message.",
+  "private": true,
+  "author": {
+    "name": "Jayden Seric",
+    "email": "me@jaydenseric.com",
+    "url": "http://jaydenseric.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://jaydenseric@github.com/jaydenseric/constraint-validation-buggyfill.git"
+  },
+  "homepage": "https://github.com/jaydenseric/constraint-validation-buggyfill#readme",
+  "bugs": "https://github.com/jaydenseric/constraint-validation-buggyfill/issues",
+  "keywords": [
+    "HTML5",
+    "form",
+    "forms",
+    "constraint",
+    "constraints",
+    "validation",
+    "buggyfill",
+    "polyfill"
+  ],
+  "main": "dist/constraint-validation-buggyfill.js",
+  "jsnext:main": "dist/constraint-validation-buggyfill.mjs",
+  "scripts": {
+    "lint": "eslint .",
+    "prebuild": "npm run lint",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^6.0.0-beta.3",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "rollup": "^0.34.10",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-watch": "^2.5.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015-rollup"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "arrow-parens": [
+        2,
+        "as-needed"
+      ],
+      "no-new": 1,
+      "valid-jsdoc": [
+        2,
+        {
+          "requireReturn": false,
+          "prefer": {
+            "return": "returns"
+          }
+        }
+      ]
+    }
+  }
+}
