@@ -1,6 +1,6 @@
 # Constraint validation buggyfill
 
-![Version](https://img.shields.io/badge/version-0.1.0-brightgreen.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.1.1-brightgreen.svg?style=flat-square)
 ![Github issues](https://img.shields.io/github/issues/jaydenseric/constraint-validation-buggyfill.svg?style=flat-square)
 ![Github stars](https://img.shields.io/github/stars/jaydenseric/constraint-validation-buggyfill.svg?style=flat-square)
 
