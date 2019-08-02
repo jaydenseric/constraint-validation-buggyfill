@@ -8,10 +8,7 @@
     "url": "https://jaydenseric.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://jaydenseric@github.com/jaydenseric/constraint-validation-buggyfill.git"
-  },
+  "repository": "github:jaydenseric/constraint-validation-buggyfill",
   "homepage": "https://github.com/jaydenseric/constraint-validation-buggyfill#readme",
   "bugs": "https://github.com/jaydenseric/constraint-validation-buggyfill/issues",
   "keywords": [
