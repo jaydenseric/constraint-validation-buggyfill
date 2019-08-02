@@ -1,6 +1,6 @@
 {
   "name": "constraint-validation-buggyfill",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Prevents invalid form submission in browsers that improperly support the HTML forms spec (i.e. Safari). The first invalid element is focused after alerting the validation message.",
   "license": "MIT",
   "author": {

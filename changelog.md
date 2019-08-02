@@ -1,6 +1,6 @@
 # constraint-validation-buggyfill changelog
 
-## Next
+## 1.0.0
 
 ### Major
 
