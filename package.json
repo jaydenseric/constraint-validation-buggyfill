@@ -2,12 +2,12 @@
   "name": "constraint-validation-buggyfill",
   "version": "0.1.1",
   "description": "Prevents invalid form submission in browsers that improperly support the HTML forms spec (i.e. Safari). The first invalid element is focused after alerting the validation message.",
+  "license": "MIT",
   "author": {
     "name": "Jayden Seric",
     "email": "me@jaydenseric.com",
     "url": "https://jaydenseric.com"
   },
-  "license": "MIT",
   "repository": "github:jaydenseric/constraint-validation-buggyfill",
   "homepage": "https://github.com/jaydenseric/constraint-validation-buggyfill#readme",
   "bugs": "https://github.com/jaydenseric/constraint-validation-buggyfill/issues",
@@ -21,48 +21,32 @@
     "buggyfill",
     "polyfill"
   ],
-  "main": "dist/constraint-validation-buggyfill.js",
-  "jsnext:main": "dist/constraint-validation-buggyfill.mjs",
-  "scripts": {
-    "lint": "eslint .",
-    "prebuild": "npm run lint",
-    "build": "rollup -c",
-    "watch": "rollup -c -w",
-    "prepublish": "npm run build"
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
   },
+  "browserslist": "> 0.5%, not dead, IE >= 10, ExplorerMobile >= 10, Firefox >= 4, Chrome >= 10, Safari >= 5, iOS >= 4, Android >= 4, BlackBerry >= 7, KaiOS >= 2.5",
   "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-preset-es2015-rollup": "^1.2.0",
-    "eslint": "^3.3.1",
-    "eslint-config-standard": "^6.0.0-beta.3",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0",
-    "rollup": "^0.34.10",
-    "rollup-plugin-babel": "^2.6.1",
-    "rollup-watch": "^2.5.0"
+    "eslint": "^6.1.0",
+    "eslint-config-env": "^9.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-compat": "^3.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import-order-alphabetical": "^0.0.2",
+    "eslint-plugin-jsdoc": "^15.8.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.2",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2"
   },
-  "babel": {
-    "presets": [
-      "es2015-rollup"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "standard",
-    "rules": {
-      "arrow-parens": [
-        2,
-        "as-needed"
-      ],
-      "no-new": 1,
-      "valid-jsdoc": [
-        2,
-        {
-          "requireReturn": false,
-          "prefer": {
-            "return": "returns"
-          }
-        }
-      ]
-    }
+  "scripts": {
+    "test": "npm run test:eslint && npm run test:prettier",
+    "test:eslint": "eslint .",
+    "test:prettier": "prettier '**/*.{json,yml,md}' -l",
+    "prepublishOnly": "npm test"
   }
 }
