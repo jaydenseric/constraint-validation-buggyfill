@@ -1,5 +1,11 @@
 # constraint-validation-buggyfill changelog
 
+## Next
+
+### Patch
+
+- Stop using [`husky`](https://npm.im/husky) and [`lint-staged`](https://npm.im/lint-staged).
+
 ## 1.0.0
 
 ### Major
