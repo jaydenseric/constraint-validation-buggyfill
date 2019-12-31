@@ -22,10 +22,10 @@ import 'constraint-validation-buggyfill'
 
 ### CDN setup
 
-To install from [npm](https://npmjs.com) via the [jsDelivr CDN](https://jsdelivr.com), add this script to pages with forms:
+To install from [npm](https://npmjs.com) via the [UNPKG CDN](https://unpkg.com), add this script to pages with forms:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/constraint-validation-buggyfill@1/index.min.js"></script>
+<script src="https://unpkg.com/constraint-validation-buggyfill"></script>
 ```
 
 ## Support
