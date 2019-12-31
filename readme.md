@@ -30,7 +30,7 @@ To install from [npm](https://npmjs.com) via the [jsDelivr CDN](https://jsdelivr
 
 ## Support
 
-- Node.js v8+
+- Node.js v10+
 - Browsers [`> 0.5%, not dead, IE >= 10, ExplorerMobile >= 10, Firefox >= 4, Chrome >= 10, Safari >= 5, iOS >= 4, Android >= 4, BlackBerry >= 7, KaiOS >= 2.5`](https://browserl.ist/?q=%3E+0.5%25%2C+not+dead%2C+IE+%3E%3D+10%2C+ExplorerMobile+%3E%3D+10%2C+Firefox+%3E%3D+4%2C+Chrome+%3E%3D+10%2C+Safari+%3E%3D+5%2C+iOS+%3E%3D+4%2C+Android+%3E%3D+4%2C+BlackBerry+%3E%3D+7%2C+KaiOS+%3E%3D+2.5)
 
 ## See
