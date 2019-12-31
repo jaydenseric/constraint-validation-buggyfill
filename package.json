@@ -11,6 +11,7 @@
   "repository": "github:jaydenseric/constraint-validation-buggyfill",
   "homepage": "https://github.com/jaydenseric/constraint-validation-buggyfill#readme",
   "bugs": "https://github.com/jaydenseric/constraint-validation-buggyfill/issues",
+  "funding": "https://github.com/sponsors/jaydenseric",
   "keywords": [
     "HTML5",
     "form",
