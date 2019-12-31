@@ -1,3 +1,5 @@
+'use strict'
+
 if (typeof window !== 'undefined')
   // Listen for all form submissions.
   window.addEventListener('submit', function(event) {
