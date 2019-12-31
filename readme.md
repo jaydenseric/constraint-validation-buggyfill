@@ -1,6 +1,6 @@
 # Constraint validation buggyfill
 
-[![npm version](https://badgen.net/npm/v/constraint-validation-buggyfill)](https://npm.im/constraint-validation-buggyfill) [![Build status](https://travis-ci.org/jaydenseric/constraint-validation-buggyfill.svg?branch=master)](https://travis-ci.org/jaydenseric/constraint-validation-buggyfill)
+[![npm version](https://badgen.net/npm/v/constraint-validation-buggyfill)](https://npm.im/constraint-validation-buggyfill) [![CI status](https://github.com/jaydenseric/constraint-validation-buggyfill/workflows/CI/badge.svg)](https://github.com/jaydenseric/constraint-validation-buggyfill/actions)
 
 Prevents invalid form submission in browsers that improperly support the HTML forms spec (e.g. Safari v5 → 10). The first invalid element is focused after alerting the validation message. An alert is used due to poor browser support for [`reportValidity()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reportValidity).
 

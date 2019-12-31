@@ -18,6 +18,7 @@
 - Removed the now redundant [`eslint-plugin-import-order-alphabetical`](https://npm.im/eslint-plugin-import-order-alphabetical) dev dependency.
 - Stop using [`husky`](https://npm.im/husky) and [`lint-staged`](https://npm.im/lint-staged).
 - Use strict mode for the script.
+- Use GitHub Actions instead of Travis for CI.
 - Show [UNPKG](https://unpkg.com) instead of [jsDelivr](https://jsdelivr.com) CDN setup instructions.
 
 ## 1.0.0
