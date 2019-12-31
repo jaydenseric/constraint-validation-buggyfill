@@ -19,6 +19,7 @@
 - Stop using [`husky`](https://npm.im/husky) and [`lint-staged`](https://npm.im/lint-staged).
 - Use strict mode for the script.
 - Use GitHub Actions instead of Travis for CI.
+- Made the readme main heading the package name.
 - Show [UNPKG](https://unpkg.com) instead of [jsDelivr](https://jsdelivr.com) CDN setup instructions.
 
 ## 1.0.0

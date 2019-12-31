@@ -1,4 +1,4 @@
-# Constraint validation buggyfill
+# constraint-validation-buggyfill
 
 [![npm version](https://badgen.net/npm/v/constraint-validation-buggyfill)](https://npm.im/constraint-validation-buggyfill) [![CI status](https://github.com/jaydenseric/constraint-validation-buggyfill/workflows/CI/badge.svg)](https://github.com/jaydenseric/constraint-validation-buggyfill/actions)
 
